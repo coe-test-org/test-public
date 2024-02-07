@@ -18,22 +18,22 @@ website:
     left: 
       - text: Home
         href: index.qmd
-      - text: Github Organization Standards
-        menu: 
-          - href: std/security.qmd
-            text: "0: Security Standards"
-          - href: std/lic.qmd
-            text: "1: Choosing a License"
-          - href: std/templates.qmd
-            text: "2: Repo Policies"
-      - text: Github Repository Guides
-        menu: 
-          - href: tools/how_to.qmd
-            text: "0: Code Documentation: Github Pages/READMEs"
-          - href: tools/renv.qmd
-            text: "1: Virtual Environments/Package Management"
-          - href: tools/release.qmd
-            text: "2: Github Release Cycles"
+      # - text: Github Organization Standards
+      #   menu: 
+      #     - href: std/security.qmd
+      #       text: "0: Security Standards"
+      #     - href: std/lic.qmd
+      #       text: "1: Choosing a License"
+      #     - href: std/templates.qmd
+      #       text: "2: Repo Policies"
+      # - text: Github Repository Guides
+      #   menu: 
+      #     - href: tools/how_to.qmd
+      #       text: "0: Code Documentation: Github Pages/READMEs"
+      #     - href: tools/renv.qmd
+      #       text: "1: Virtual Environments/Package Management"
+      #     - href: tools/release.qmd
+      #       text: "2: Github Release Cycles"
 
 
             
