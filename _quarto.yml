@@ -1,0 +1,92 @@
+project:
+  type: website
+
+# comments: 
+#   hypothesis: true
+
+website:
+  title: "🌲 NW-PaGe Github Standards"
+  # author: DIQA 
+  # date: today
+  search: true
+  repo-url: https://github.com/NW-PaGe/standards
+  repo-subdir: docs/
+  repo-actions: [source,edit,issue]
+  
+  navbar: 
+    background: primary
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Github Organization Standards
+        menu: 
+          - href: std/security.qmd
+            text: "0: Security Standards"
+          - href: std/lic.qmd
+            text: "1: Choosing a License"
+          - href: std/templates.qmd
+            text: "2: Repo Policies"
+      - text: Github Repository Guides
+        menu: 
+          - href: tools/how_to.qmd
+            text: "0: Code Documentation: Github Pages/READMEs"
+          - href: tools/renv.qmd
+            text: "1: Virtual Environments/Package Management"
+          - href: tools/release.qmd
+            text: "2: Github Release Cycles"
+
+
+            
+            
+    search: true
+    # logo: images/doh_logo.png
+    pinned: false
+    
+    right:
+      - icon: github
+        href: https://github.com/NW-PaGe/standards
+        aria-label: GitHub
+    
+  page-footer:
+    left: "🍦"
+    background: "#440154ff"
+    
+    
+
+# bibliography: references.bib
+
+
+format:
+  html:
+    # grid:
+    #   sidebar-width: 200px
+    #   body-width: 1000px
+    #   margin-width: 300px
+    #   gutter-width: 1.5rem
+    theme: 
+      - cosmo
+      - assets/styles.scss
+    scss: assets/styles.scss
+    title-block-banner: true
+    # css: styles.css
+    toc: true
+    # number-depth: 3
+    # toc-depth: 3
+    highlight-style: assets/custom.theme
+    link-external-newwindow: true
+    number-sections: true
+    # code-fold: show
+    code-overflow: wrap
+    page-layout: full
+    backgroundcolor: "#f8f9fa"
+    # header-includes: |
+    #   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolitano" type="text/css"/>
+# mainfont: Franklin Gothic   
+    
+    
+execute: 
+  error: true
+  freeze: true
+
+
+
