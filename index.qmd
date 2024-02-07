@@ -54,7 +54,7 @@ This is a static website documenting the proposed policies and standards for pub
 If there are any questions please reach out to
 
 ::: {.column-screen-inset-shaded layout-nrow="1"}
-{{< fa unlock >}} **Personal or network credentials, tokens, server names and more are prohibited from being published to our public repos.** Protect security and credentials with good coding practices. Using local environment files along with `.gitignore` can prevent credentials from being accidentally pushed into your repo. Other guardrails like **pre-commit hooks** can be used to further prevent accidental credential leaks. [**See more details on our security policies here**](std/security.qmd)
+{{< fa unlock >}} **Personal or network credentials, tokens, server names and more are prohibited from being published to our public repos.** Protect security and credentials with good coding practices. Using local environment files along with `.gitignore` can prevent credentials from being accidentally pushed into your repo. Other guardrails like **pre-commit hooks** can be used to further prevent accidental credential leaks. [**See more details on our security policies here**]
 
 ```{yaml filename="local_credentials.yml"}
 # local yaml file that will NOT be pushed to the repo
@@ -82,11 +82,11 @@ password <- creds$my_credentials$password
 :::
 
 ::: {.column-screen-inset-shaded layout-nrow="1"}
-{{< fa file-lines >}} Each repo in the organization should have a license. Licenses can help prevent your work from being stolen and/or used inappropriately. [Licensing details here](std/lic.qmd)
+{{< fa file-lines >}} Each repo in the organization should have a license. Licenses can help prevent your work from being stolen and/or used inappropriately. [Licensing details here]
 
-{{< fa book >}} This organization requires each repo to have [certain documents](std/templates.qmd), such as a CODE_OF_CONDUCT. The organization uses a special repo called **.github** to ensure all repos adhere to the policies and have the right documents.
+{{< fa book >}} This organization requires each repo to have [certain documents], such as a CODE_OF_CONDUCT. The organization uses a special repo called **.github** to ensure all repos adhere to the policies and have the right documents.
 
-{{< fa note-sticky >}} If you're looking to build a repository, [check out the Github user guide tabs](tools/how_to.qmd) for best practices on reproducibility, documentation in the repo, and more.
+{{< fa note-sticky >}} If you're looking to build a repository, [check out the Github user guide tabs] for best practices on reproducibility, documentation in the repo, and more.
 :::
 :::
 
